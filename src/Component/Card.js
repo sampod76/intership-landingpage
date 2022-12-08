@@ -3,7 +3,7 @@ import React from 'react';
 const Card = () => {
     return (
         <div>
-            <div className='lggg:w-[20rem] lggg:h-[29rem] md:w-[17rem] md:h-[23rem]  bg-[#7065F0] rounded-2xl flex flex-col justify-between lg:px-6 lg:py-7 py-2 px-3 text-white ' >
+            <div className='lggg:w-[20rem] lggg:h-[29rem] md:w-[17rem] md:h-[23rem] lg:w-[20rem] lg:h-[32rem]   bg-[#7065F0] rounded-2xl flex flex-col justify-between lg:px-6 lg:py-7 py-2 px-3 text-white ' >
 
                 <div>
                     <h1 className='font-bold py-2 lg:py-5 lg:px-2 px-2 mt-2'>PGWARS</h1>

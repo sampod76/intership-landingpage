@@ -37,16 +37,16 @@ const Home = () => {
 
                     <div className=''>
                         <h1 className='mb-1'>Gender</h1>
-                        <div className='flex justify-around  gap-10 text-lg'>
-                            <div className='rounded-lg text-center p-1 border-2 w-full space-x-2'>
+                        <div className='flex justify-around gap-2 md:gap-10 sm:text-lg'>
+                            <div className='rounded-lg text-center  sm:p-1 border-2 w-full space-x-2'>
                                 <input type="radio" name="" id="" />
                                 <label htmlFor="">Male</label>
                             </div>
-                            <div className='rounded-lg text-center p-1 border-2 w-full space-x-2'>
+                            <div className='rounded-lg text-center  sm:p-1 border-2 w-full space-x-2'>
                                 <input type="radio" name="" id="" />
                                 <label htmlFor="">Female</label>
                             </div>
-                            <div className='rounded-lg text-center p-1 border-2 w-full space-x-2'>
+                            <div className='rounded-lg text-center  sm:p-1 border-2 w-full space-x-2'>
                                 <input type="radio" name="" id="" />
                                 <label htmlFor="">Unisex</label>
                             </div>
@@ -54,20 +54,20 @@ const Home = () => {
                     </div>
                     <div className=''>
                         <h1 className='mb-1'>Types of Room Sharing</h1>
-                        <div className='grid grid-cols-4 gap-2 lg:gap-6 text-lg'>
+                        <div className='grid grid-cols-2 sm:grid-cols-4 gap-2 lg:gap-6 md:text-lg '>
                             <div className='rounded-lg text-center smm:p-1 border-2 w-full space-x-2'>
                                 <input type="radio" name="" id="" />
                                 <label htmlFor="">1 room</label>
                             </div>
-                            <div className='rounded-lg text-center smm:p-1 border-2 w-full space-x-2'>
+                            <div className='rounded-lg text-center sm:p-1 border-2 w-full space-x-2'>
                                 <input type="radio" name="" id="" />
                                 <label htmlFor="">2 room</label>
                             </div>
-                            <div className='rounded-lg text-center smm:p-1 border-2 w-full space-x-2'>
+                            <div className='rounded-lg text-center sm:p-1 border-2 w-full space-x-2'>
                                 <input type="radio" name="" id="" />
                                 <label htmlFor="">3 room</label>
                             </div>
-                            <div className='rounded-lg text-center smm:p-1 border-2 w-full space-x-2'>
+                            <div className='rounded-lg text-center sm:p-1 border-2 w-full space-x-2'>
                                 <input type="radio" name="" id="" />
                                 <label htmlFor="">4 room</label>
                             </div>
@@ -100,12 +100,12 @@ const Home = () => {
 
                     <div className=''>
                         <h1 className='my-2'>Upload Images</h1>
-                        <div className='grid grid-cols-3 gap-7' >
-                            <div className='flex flex-col justify-center items-center rounded-lg border-2 border-gray-300  w-full h-[90%] lg:h-[14.8125rem]'>
+                        <div className='grid grid-cols-3 gap-2 sm:gap-7' >
+                            <div className='flex flex-col justify-center items-center rounded-lg border-2 border-gray-300  w-full sm:h-[90%] lg:h-[14.8125rem] text-center'>
                                 <h1>+</h1>
                                 <h1>Cover Image</h1>
                             </div>
-                            <div className='h-[90%] lg:h-[14.8125rem] rounded-lg border-2 border-gray-300'>
+                            <div className='sm:h-[90%] lg:h-[14.8125rem] rounded-lg border-2 border-gray-300'>
                                 <img src="https://images.unsplash.com/reserve/bOvf94dPRxWu0u3QsPjF_tree.jpg?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=876&q=80" alt="" className='h-[50%] w-full rounded-t-lg' />
                                 <div className=''>
                                     <h1 className='lg:p-2 p-1 mt-1 rounded-2xl bg-[#7065F0] w-[30%]'> </h1>
@@ -122,8 +122,8 @@ const Home = () => {
                     </div>
 
                     <div className=' border-2 border-gray-300 p-1 rounded-lg'>
-                        <div className='grid grid-cols-6 gap-1 justify-between items-center'>
-                            <div className='flex flex-col justify-center items-center border-2 border-gray-300 rounded-xl h-full text-center text-xs'>
+                        <div className='grid grid-cols-3 md:grid-cols-6 gap-1 justify-between items-center'>
+                            <div className='flex flex-col justify-center items-center border-2 border-gray-300 rounded-xl h-full text-center text-[8px] sm:text-xs'>
                                 <h1>+</h1>
                                 <h1>More</h1>
                                 <h1>Uplode 5 image</h1>
@@ -147,8 +147,8 @@ const Home = () => {
                         </div>
                     </div>
                     <div className='flex justify-end gap-2 '>
-                        <button className='bg-[#7065F0] p-3 rounded-lg text-center text-lg w-[20%] text-white font-bold'>Reject</button>
-                        <button className='bg-[#7065F0] p-3 rounded-lg text-center text-lg w-[20%] text-white font-bold'>Reject</button>
+                        <button className='bg-[#7065F0] sm:p-3 p-1 rounded-lg text-center text-lg sm:w-[20%] text-white font-bold'>Reject</button>
+                        <button className='bg-[#7065F0] sm:p-3 p-1 rounded-lg text-center text-lg sm:w-[20%] text-white font-bold'>Reject</button>
                     </div>
 
                 </form>
